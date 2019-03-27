@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentListController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentListController">
    <children>
       <Label text="Cadastro de Departamentos">
          <font>
@@ -24,10 +24,10 @@
           <Button fx:id="btNew" mnemonicParsing="false" onAction="#onBtNewAction" text="Novo" />
         </items>
       </ToolBar>
-      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="395.0">
+      <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="570.0">
         <columns>
-          <TableColumn fx:id="tableColumnId" prefWidth="62.0" text="Código" />
-          <TableColumn fx:id="tableColumnName" prefWidth="137.0" text="Nome" />
+          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Código" />
+          <TableColumn fx:id="tableColumnName" prefWidth="521.0" text="Nome" />
         </columns>
       </TableView>
    </children>
