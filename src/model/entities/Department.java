@@ -5,11 +5,12 @@ import java.io.Serializable;
 public class Department implements Serializable {
 
 	private static final long serialVersionUID = 8763655018983570959L;
-	
+
 	private Integer id;
 	private String name;
 
 	public Department() {
+
 	}
 
 	public Department(Integer id, String name) {
