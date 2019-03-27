@@ -74,13 +74,8 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 		PreparedStatement st = null;
 		try {
 			st = conn.prepareStatement("DELETE FROM DESENV.DEPARTMENT WHERE ID = ?");
-
 			st.setInt(1, id);
-
-			int rows = st.executeUpdate();
-			if (rows == 0) {
-				throw new DbException("No rows affect! Id not exist!");
-			}
+			st.executeUpdate();
 		}
 		catch (SQLException e) {
 			throw new DbException(e.getMessage());

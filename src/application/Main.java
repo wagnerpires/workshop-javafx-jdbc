@@ -26,7 +26,7 @@ public class Main extends Application {
 			primaryStage.setTitle("Zulu Delta Foxtrot JavaFX");
 			primaryStage.show();
 		} catch (IOException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 
