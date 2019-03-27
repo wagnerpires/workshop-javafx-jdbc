@@ -10,7 +10,7 @@ public class Department implements Serializable {
 	private String name;
 
 	public Department() {
-
+		name = "";
 	}
 
 	public Department(Integer id, String name) {
