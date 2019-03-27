@@ -27,7 +27,8 @@
       <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="570.0">
         <columns>
           <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Código" />
-          <TableColumn fx:id="tableColumnName" prefWidth="521.0" text="Nome" />
+          <TableColumn fx:id="tableColumnName" prefWidth="407.0" text="Nome" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="189.0" />
         </columns>
       </TableView>
    </children>
